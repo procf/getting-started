@@ -206,7 +206,7 @@ An interactive set of tutorials for learning Git.
 * [Reproducible research: Goals, Guidelines and Git](https://opr.princeton.edu/workshops/Downloads/2019May_RRandGitPratt.pdf)<br>
 Slides from a 2019 Princeton workshop with an overview of reproducible research best practices and a guide to setting up Git.
 
-* [Setting Up a Github Repository for Your Lab](https://ourcodingclub.github.io/tutorials/git-for-labs/#version)<br>
+* [Setting Up a Github Repository for Your Lab](https://ourcodingclub.github.io/tutorials/git-for-labs/)<br>
 A guide for how to manage a research lab's Github organizational account. Aimed at ecology and evolutionary biology research, but includes many broadly applicable best practices.
 
 * [.gitignore Templates](https://github.com/github/gitignore)
