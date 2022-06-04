@@ -12,11 +12,11 @@ This github organization is our hub for a variety of different repositories, inc
 ## Getting started
 
 All members of the group can make repositories in this organization, in addition to using their own personal github. The PRO-CF "organization" are also grouped into our 3 teams:
-- [Colloids](https://github.com/orgs/procf/teams/colloids)
-- [Machine Learning](https://github.com/orgs/procf/teams/machine-learning)
-- [Hemorheology](https://github.com/orgs/procf/teams/hemorheology)
+- [Colloids](https://github.com/orgs/procf/teams/colloids/repositories)
+- [Machine Learning](https://github.com/orgs/procf/teams/machine-learning/repositories)
+- [Hemorheology](https://github.com/orgs/procf/teams/hemorheology/repositories)
 
-See the [Github Guide](/github-guide.md) for tips on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
+See the [Github Guide](/github-guide.md) for help on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
 
 ## Adding repositories
 
@@ -29,7 +29,7 @@ More details about the general-template are [available here](https://github.com/
 
 ## Managing Teams
 
-The Github Teams function lets you group repositories together by topic (kind of like a subfolder). They also have a number of build in project managememt tools you can use to collaboratively develop code if you decide to do so. Anyone can view any Team, but you will only get notifications about Teams you have joined. Teams can also have sub-teams.
+The Github Teams function lets you group repositories together by topic (kind of like a subfolder). They also have a number of built-in project managememt tools you can optionally use to collaboratively develop code. Anyone can view any Team, but you will only get notifications about Teams you have joined. Teams can also have sub-teams.
 
 Go to the [PRO-CF Teams page](https://github.com/orgs/procf/teams) and scroll down to view and add Teams.
 
