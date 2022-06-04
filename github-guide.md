@@ -195,7 +195,7 @@ Some helpful resources for learning and using git are:
 
 * [Git Cheat Sheet](/git-cheat-sheet_USletter.pdf) (PDF)
 
-* [The Missing Semester of Your CS Education: Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/)
+* [The Missing Semester of Your CS Education: Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/)<br>
 Part of a series of free, pre-recorded lectures from MIT CSAIL.
 
 * [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
