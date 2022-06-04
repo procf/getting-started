@@ -1,18 +1,27 @@
-# general-template
-This is a general template for a project repository
+# Welcome to PRO-CF
 
-## Repository admin
+Welcome to the Physics and Rheology of Complex Fluids (PRO-CF) research group! :tada:
 
-Most repositories will be Private at first (**always** check with Safa before making a repository public)
+This github organization is our hub for a variety of different repositories, including:
+- publically published AI/ML projects, DPD modules, and other useful scripts
+- (private) onboarding and training scripts for new students and postdocs
+- (private) legacy and back-up code from past projects
+- (private) current code that is shared among teams and individual group members for different projects
+- (private) code and drafts related to specific in-progress research papers or presentations
 
-A repository should **always** include:
-- A .gitignore file to prevent unnecessary files from being backed up <br>
-  *the .gitignore included here prevents common unnecessary files from hoomd-blue <3.2, C++, Python, R, Julia, macOS, Office365, and LaTeX/TeX from being backed up to the repository; if you need additional templates you can find them at [https://github.com/github/gitignore](https://github.com/github/gitignore)*
-- A README.md file with a description of the repository and its contents
+## Getting started
 
-When making a Public repository you will often want to add a LICENSE file. Discuss with Safa about what type of license to use (for example, many open source projects use the simple MIT License, while HOOMD-blue is released under a BSD 3-Clause License).<br>
-You can add a license at any time. See github's [instructions on how to add a LICENSE to an existing repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
+All members of the group can make repositories in this organization, in addition to using their own personal github. The PRO-CF "organization" are also grouped into our 3 teams:
+- Colloids
+- Machine Learning
+- Hemorheology
 
-## What to include in your repository
+See the Github Guide for tips on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
 
-Github repositories should only include code files, documentation, and small data files (recommended <50MB, max 2GB). If your code uses large data files and is being made public it is recommended you include a small sample data set.
+## Adding repositories
+
+Once you have access, you can make a new repository by going to the [PRO-CF main page](https://github.com/procf) and clicking the green "New" button.
+
+We recommend selecting a template (such as the general-template) to make sure you get all the administrative files you need in your repository. Individuals and teams may also set up their own templates for you to choose from. More details about the general template are [available here](https://github.com/procf/general-template) (internal only).
+
+**Remember** Github limits the size of files you can upload, so you should only put code, documentation, and small (recommended <50MB and max 2GB) data files on github. All larger data, visualization, and analysis files should be stored on the /work directory on Discovery.
