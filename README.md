@@ -22,6 +22,7 @@ See the Github Guide for tips on creating an account, getting access to the PRO-
 
 Once you have access, you can make a new repository by going to the [PRO-CF main page](https://github.com/procf) and clicking the green "New" button.
 
-We recommend selecting a template (such as the general-template) to make sure you get all the administrative files you need in your repository. Individuals and teams may also set up their own templates for you to choose from. More details about the general template are [available here](https://github.com/procf/general-template) (internal only).
+We recommend selecting a template (such as the general-template) to make sure you get all the administrative files you need in your repository. Individuals and teams may also set up their own templates for you to choose from.<br>
+More details about the general-template are [available here](https://github.com/procf/general-template) (internal only).
 
 **Remember** Github limits the size of files you can upload, so you should only put code, documentation, and small (recommended <50MB and max 2GB) data files on github. All larger data, visualization, and analysis files should be stored on the /work directory on Discovery.
