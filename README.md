@@ -31,7 +31,7 @@ More details about the general-template are [available here](https://github.com/
 
 The Github Teams function lets you group repositories together by topic (kind of like a subfolder). They also have a number of build in project managememt tools you can use to collaboratively develop code if you decide to do so. Anyone can view any Team, but you will only get notifications about Teams you have joined. Teams can also have sub-teams.
 
-Go to the [PRO-CF Teams page](https://github.com/orgs/procf/teams) to view and add a Team.
+Go to the [PRO-CF Teams page](https://github.com/orgs/procf/teams) and scroll down to view and add Teams.
 
 ### Adding/removing repositories in a Team
 
