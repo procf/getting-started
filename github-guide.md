@@ -193,26 +193,26 @@ Some helpful resources for learning and using git are:
 
 ### Git basics
 
-* [Github Quickstart Guide](https://docs.github.com/en/get-started/quickstart)
-
 * [Git Cheat Sheet](/git-cheat-sheet_USletter.pdf) (PDF)
 
 * [The Missing Semester of Your CS Education: Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/)<br>
 Part of a series of free, pre-recorded lectures from MIT CSAIL.
 
-### Github workflows
+### Github resources
+
+* [Github Quickstart Guide](https://docs.github.com/en/get-started/quickstart)
 
 * [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
 
 * [Learn Git Branching](https://learngitbranching.js.org/)<br>
 An interactive set of tutorials for learning Git.
 
-* [Reproducible research: Goals, Guidelines and Git](https://opr.princeton.edu/workshops/Downloads/2019May_RRandGitPratt.pdf)<br>
-Slides from a 2019 Princeton workshop with an overview of reproducible research best practices and a guide to setting up Git.
-
 * [.gitignore Templates](https://github.com/github/gitignore)
 
-### Github and project management
+### Reproducability and project management with Github
+
+* [Reproducible research: Goals, Guidelines and Git](https://opr.princeton.edu/workshops/Downloads/2019May_RRandGitPratt.pdf)<br>
+Slides from a 2019 Princeton workshop with an overview of reproducible research best practices and a guide to setting up Git.
 
 * [Setting Up a Github Repository for Your Lab](https://ourcodingclub.github.io/tutorials/git-for-labs/)<br>
 A guide for how to manage a research lab's Github organizational account. Aimed at ecology and evolutionary biology research, but includes many broadly applicable best practices.
@@ -220,7 +220,7 @@ A guide for how to manage a research lab's Github organizational account. Aimed 
 * [Scientific Collaboration and Project Management in GitHub](https://rabernat.medium.com/scientific-collaboration-and-project-management-in-github-d74f2255ae5f)<br>
 Blog post about Github for scientific research project management
 
-* [Cookiecutter Science Project](https://github.com/jbusecke/cookiecutter-science-project)
+* [Cookiecutter Science Project](https://github.com/jbusecke/cookiecutter-science-project)<br>
 An example template for reproducible science projects (uses Conda)
 
 ### Markdown resources
