@@ -69,7 +69,8 @@ The next steps are well documented on Github. Each step below is linked to the c
 
 The next step is to [set up SSH authentication for connecting to Github](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh) (this will allow you to contribute to files and repositories on Github from the command line).
 
-Once you have set up SSH authentication you should [clone your Github repository to your computer with SSH](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) (be sure to use the SSH link, not the HTTPS link). This will create a new directory that is a copy (clone) of your Github repository.
+Once you have set up SSH authentication you should [clone your Github repository to your computer with SSH](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository). This will create a new directory that is a copy (clone) of your Github repository. <br>
+**NOTE:** Be sure to use the SSH link, not the HTTPS link when cloning a repository. 
 
 You can use this same procedure to clone a repository to any other computer, including the Discovery cluster.
 <br>
