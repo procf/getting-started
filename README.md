@@ -12,9 +12,9 @@ This github organization is our hub for a variety of different repositories, inc
 ## Getting started
 
 All members of the group can make repositories in this organization, in addition to using their own personal github. The PRO-CF "organization" are also grouped into our 3 teams:
-- Colloids
-- Machine Learning
-- Hemorheology
+- [Colloids](https://github.com/orgs/procf/teams/colloids)
+- [Machine Learning](https://github.com/orgs/procf/teams/machine-learning)
+- [Hemorheology](https://github.com/orgs/procf/teams/hemorheology)
 
 See the Github Guide for tips on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
 
