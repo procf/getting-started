@@ -33,7 +33,9 @@ The Github Teams function lets you group repositories together by topic (kind of
 
 Go to the [PRO-CF Teams page](https://github.com/orgs/procf/teams) to view and add a Team.
 
-After you have created a reposiroty, you can add it to a Team to have it grouped there:
+### Adding/removing repositories in a Team
+
+After you have created a repository, you can add it to a Team to have it grouped there:
 * Go to the Team page for the Team you want to add the repository to
 * Select the "Repositories" tab at the top of the page
 * Click the green "Add Repository" button
