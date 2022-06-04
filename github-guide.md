@@ -193,7 +193,7 @@ Some helpful resources for learning and using git are:
 
 * [Github Quickstart Guide](https://docs.github.com/en/get-started/quickstart)
 
-* [Git Cheat Sheet](https://github.com/rob10campbell/PRoPS-colloids_setup/blob/main/Programming-Resources/git-cheat-sheet_USletter.pdf) (PDF)
+* [Git Cheat Sheet](/git-cheat-sheet_USletter.pdf) (PDF)
 
 * [The Missing Semester of Your CS Education: Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/)
 Part of a series of free, pre-recorded lectures from MIT CSAIL.
