@@ -16,7 +16,7 @@ All members of the group can make repositories in this organization, in addition
 - [Machine Learning](https://github.com/orgs/procf/teams/machine-learning)
 - [Hemorheology](https://github.com/orgs/procf/teams/hemorheology)
 
-See the Github Guide for tips on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
+See the [Github Guide](/github-guide.md) for tips on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
 
 ## Adding repositories
 
