@@ -26,3 +26,19 @@ We recommend selecting a template (such as the general-template) to make sure yo
 More details about the general-template are [available here](https://github.com/procf/general-template) (internal only).
 
 **Remember** Github limits the size of files you can upload, so you should only put code, documentation, and small (recommended <50MB and max 2GB) data files on github. All larger data, visualization, and analysis files should be stored on the /work directory on Discovery.
+
+## Managing Teams
+
+The Github Teams function lets you group repositories together by topic (kind of like a subfolder). They also have a number of build in project managememt tools you can use to collaboratively develop code if you decide to do so. Anyone can view any Team, but you will only get notifications about Teams you have joined. Teams can also have sub-teams.
+
+Go to the [PRO-CF Teams page](https://github.com/orgs/procf/teams) to view and add a Team.
+
+After you have created a reposiroty, you can add it to a Team to have it grouped there:
+* Go to the Team page for the Team you want to add the repository to
+* Select the "Repositories" tab at the top of the page
+* Click the green "Add Repository" button
+* Search for the name of the repository you created and then click "Add repository to team"
+
+To remove a repository from a Team:
+* select the checkbox next to the repository name
+* Click on the grey drop-down menu and select "Remove from team"
