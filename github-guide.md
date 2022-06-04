@@ -181,7 +181,7 @@ echo "test" | gpg --clearsign
 You should now be set up for verified commits.
 <br>
 <br>
-## Additional resources*Optional Git Next Steps*: Contribute to the PRoPS-colloids_setup repository
+## Additional resources
 
 The best way to learn Git is to practice! Start using it for your own projects, to collaborate with other PRO-CF members, and contribute to open-source projects you like (even just catching typos in Documentation can be a huge help).
 
