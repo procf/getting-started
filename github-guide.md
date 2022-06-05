@@ -116,6 +116,11 @@ git push
 
 You're now up to date! You can go to the repository on Github and view the changes. 
 
+When you are making remote changes (i.e. locally on your computer) to a repository that is shared with others (such as a repository here on PRO-CF), it is good practice to pull the latest copy of the repository from Github right before you push new changes. This helps ensure that you are working on the most up-to-date version of the repository so that you won't accidentally remove changes that someone else recently made, or cause a bunch of code conflicts that have to be resolved manually.
+```
+git pull
+```
+
 See the [Additional resources](/github-guide.md#additional-resources) and the [Git Cheet Sheet](/git-cheat-sheet_USletter.pdf) for more help with Git commands.
 <br>
 <br>
