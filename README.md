@@ -18,7 +18,7 @@ All members of the group can make and access repositories in this organization, 
 
 See the [Github Guide](/github-guide.md) for help on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
 
-**Remember** Always pull before you push in case someone has done any work since the last time you pulled - you wouldn't want anyone's work to get lost or to have to manually resolve many coding conflicts.
+**Remember** when working on shared repositories to pull before you push (in case someone has done work since the last time you pulled) to avoid data loss and coding conflicts.
 
 ## Adding repositories
 
