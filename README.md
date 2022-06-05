@@ -11,7 +11,7 @@ This github organization is our hub for a variety of different repositories, inc
 
 ## Getting started
 
-All members of the group can make and access repositories in this organization, in addition to using their own personal github. The PRO-CF "organization" are also grouped into our 3 teams:
+All members of the group can make and access repositories in this organization, in addition to using their own personal github. Repositories in the PRO-CF "organization" are also grouped into our 3 teams:
 - [Colloids](https://github.com/orgs/procf/teams/colloids/repositories)
 - [Machine Learning](https://github.com/orgs/procf/teams/machine-learning/repositories)
 - [Hemorheology](https://github.com/orgs/procf/teams/hemorheology/repositories)
