@@ -11,12 +11,14 @@ This github organization is our hub for a variety of different repositories, inc
 
 ## Getting started
 
-All members of the group can make repositories in this organization, in addition to using their own personal github. The PRO-CF "organization" are also grouped into our 3 teams:
+All members of the group can make and access repositories in this organization, in addition to using their own personal github. The PRO-CF "organization" are also grouped into our 3 teams:
 - [Colloids](https://github.com/orgs/procf/teams/colloids/repositories)
 - [Machine Learning](https://github.com/orgs/procf/teams/machine-learning/repositories)
 - [Hemorheology](https://github.com/orgs/procf/teams/hemorheology/repositories)
 
 See the [Github Guide](/github-guide.md) for help on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
+
+**Remember** Always pull before you push in case someone has done any work since the last time you pulled - you wouldn't want anyone's work to get lost or to have to manually resolve many coding conflicts.
 
 ## Adding repositories
 
@@ -43,4 +45,5 @@ After you have created a repository, you can add it to a Team to have it grouped
 
 To remove a repository from a Team:
 * select the checkbox next to the repository name
-* Click on the grey drop-down menu and select "Remove from team"
+* Click on the grey drop-down menu and select "Remove from team"<br>
+(This does not remove the repository from Github or the PRO-CF organization)
