@@ -18,7 +18,7 @@ All members of the group can make and access repositories in this organization, 
 
 See the [Github Guide](/github-guide.md) for help on creating an account, getting access to the PRO-CF github organization, joining your team(s), and setting up command-line git.
 
-**Remember** when working on shared repositories to pull before you push (in case someone has done work since the last time you pulled) to avoid data loss and coding conflicts.
+**Remember** it's important to pull before you push when working on shared repositories (in case someone has done work since the last time you pulled) to avoid data loss and coding conflicts.
 
 ## Adding repositories
 
@@ -33,7 +33,7 @@ We recommend selecting a template (such as the general-template) to make sure yo
 
 The Github Teams function lets you group repositories together by topic (kind of like a subfolder). They also have a number of built-in project managememt tools you can optionally use to collaboratively develop code. Anyone can view any Team, but you will only get notifications about Teams you have joined. Teams can also have sub-teams.
 
-Go to the [PRO-CF Teams page](https://github.com/orgs/procf/teams) and scroll down to view and add Teams.
+Go to the [PRO-CF Teams page](https://github.com/orgs/procf/teams) to view and add Teams.
 
 ### Adding/removing repositories in a Team
 
