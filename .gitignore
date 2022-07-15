@@ -1,5 +1,5 @@
 ###################
-# includes: hoomd-blue, C++, PYTHON, R, JULIA, MACOS, OFFICE365, TeX
+# includes: hoomd-blue, C++ and FORTRAN, PYTHON, R, JULIA, MACOS, OFFICE365, TeX
 ###################
 
 ####### from hoomd-blue-3.2 2022-05 #######
@@ -28,7 +28,7 @@ compile_commands.json
 .venv
 
 
-####### C++ #######
+####### C++ and FORTRAN #######
 
 # Prerequisites
 *.d
