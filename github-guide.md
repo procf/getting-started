@@ -42,15 +42,13 @@ After creating your account, send Rob your Github username (and a list of the te
 <br>
 ## Installing Git on the command line
 
-If you need more information about working on the command line, I recommend the first few lectures from ["The Missing Semester of Your CS Education"](https://missing.csail.mit.edu/). This guide assumes you are using a zsh Terminal on macOS.
+If you need more information about working on the command line, I recommend the first few lectures from ["The Missing Semester of Your CS Education"](https://missing.csail.mit.edu/). This guide will go over some of the basics, and assumes that you are using a zsh Terminal on macOS.
 
-Open Terminal to the home directory and use the command line to create a new directory where you want to store your Github repository. This directory can also store non-Github files, for example it could be the "src" or "repositories" directory in your home directory, or you could create a new a "Github" specific directory for all your repositories. This does not need to be in the home directory, but putting it in the home directory typically makes it easiest to access.
-
-Move to the directory you chose/created and initialize Git with the command
+Open Terminal (bringing you to the `home` directory) and initialize Git on your computer with the command
 ```bash
 % git init
 ```
-This will create several files in this directory needed to use Git.
+This will create several files needed to use Git.
 
 Next, you need to configure Git with your Github credentials. You can do this globally with the `--global` attribute. Set your username with
 ```bash
@@ -61,6 +59,28 @@ and set your email (use an email address that you have verified on Github)
 % git config --global user.email "the_email_you_use_with_Github"
 ```
 *Note: Your username and email will be recorded as part of the commit history of any repository you contribute to. If you would like your email to be kept private, you can use the Github-generated `users.noreply.github.com` email instead. To access this* [manage your email settings on Github](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address)
+
+Next, decide where you want to put your first Github repository. If you are new to command line programming, here are some tips:
+
+The Terminal opens in your `home` directory (AKA `~` or `Users/your_username`). To check this, open Terminal and enter the command for "present working directory" `pwd` to view your current location on the command line. It should look like this: 
+```bash
+% pwd
+/Users/your_username
+```
+You can view what is in the home directory with the command
+```bash
+ls
+```
+To keep the home directory clean, but still make it easy to access your simulations from the command line, it's best practice to create a "source" (AKA `src`) directory or a `repositories` directory here to store all your programming files:
+```bash
+mkdir repositories
+```
+You can then move to the new repositories directory with
+```bash
+cd repositories
+```
+
+You can store your Github repositories anywhere on your computer, but putting them in the same `src` or `repositories` directory you store your files for command line programming is probably easiest. You can create a new direcotry specifically for all your Github repositories, but it is not necessary.
 <br>
 <br>
 ## Linking to your account and copying your Github repository to your computer
