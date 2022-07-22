@@ -238,6 +238,9 @@ Part of a series of free, pre-recorded lectures from MIT CSAIL.
 * [Learn Git Branching](https://learngitbranching.js.org/)<br>
 An interactive set of tutorials for learning Git.
 
+* [Pro Git Book](https://git-scm.com/book/en/v2)<br>
+Comprehensive free book for learning to use Git repositories.
+
 * [.gitignore Templates](https://github.com/github/gitignore)
 
 ### Reproducability and project management with Github
