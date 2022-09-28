@@ -13,7 +13,6 @@ This guide was complied by Rob Campbell.
 4. [Installing Git on the command line](/github-guide.md#installing-git-on-the-command-line)
 5. [Linking to your account and copying your Github repository to your computer](/github-guide.md#linking-to-your-account-and-copying-your-github-repository-to-your-computer)
 6. [Using command-line Git](/github-guide.md#using-command-line-git)
-7. [Signature verification](/github-guide.md#signature-verification)
 8. [Additional resources](/github-guide.md#additional-resources)
 <br>
 
@@ -142,78 +141,6 @@ git pull
 ```
 
 See the [Additional resources](/github-guide.md#additional-resources) and the [Git Cheet Sheet](/git-cheat-sheet_USletter.pdf) for more help with Git commands.
-<br>
-<br>
-## Signature verification
-
-It is recommended that you set up [signature verification](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/about-commit-signature-verification) with vigilant mode and a GPG key (this step verifies your identity when you make a commit, making it harder for someone else to contribute to a project in your name without your permission).
-
-Turn on [vigilant mode](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits) in your Github profile's Settings on the website.
-
-You will need to install [GNU Privacy Guard (GPG)](https://gnupg.org/) on your computer with a package manager, such as [Homebrew]
-
-To install Homebrew use
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-This calls a script (from the Homebrew [website](https://brew.sh/)) that explains what it will do and then pauses before installing.
-
-Then use Homebrew to install GNU Privacy Guard (GPG) with
-```bash
-brew install gnupg gnupg2
-```
-and make sure you have the passphrase entry management tool `pinentry` installed
-```bash
-brew install pinentry
-```
-
-[Follow the steps for creating a GPG key listed here](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/checking-for-existing-gpg-keys) and then add it to your Github profile
-
-To configure Git to sign all commits by default, run
-```bash
-git config --global commit.gpgsign true
-```
-
-This allows you to commit as normal, with identity verification, but it will require you to enter your GPG passphrase to authenticate a commit. If you would like the passphrase to be automatically entered from the macOS keychain you can install [GPG Suite](https://gpgtools.org/) (recommended by Github), or configure `gpg-agent` to save your GPG passphrase automatically.
-
-To configure `gpg-agent` to retrieve your passphrase automatically, use the following steps:
-
-Install `pinentry-mac`
-```bash
-brew install gnupg pinentry-mac
-```
-Create a `gpg-agent.config` file
-```bash
-vim ~/.gnupg/gpg-agent.conf
-```
-Enter insert mode (by pressing "i") and copy the following text into that file (including the "#" comments)
-```vim
-# Connects gpg-agent to the OSX keychain via the brew-installed
-# pinentry program from GPGtools. This allows the gpg key's passphrase
-# to be stored in the login keychain, enabling automatic key signing.
-pinentry-program /usr/local/bin/pinentry-mac
-```
-(save and exit the file by hitting the `esc` key and then entering `:wq`)
-
-Sign a test message so pinentry-mac can store your password in the keychain
-```bash
-echo "test" | gpg --clearsign
-```
-A new macOS window should pop-up prompting you to enter your passphrase. Make sure you check "Save in Keychain" and you should be all set. 
-
-If you get a differnet pop-up (that looks more like part of the Terminal window) without the "Save in Keychain" option then you can still enter your passphrase but it will not automatically enter it in the future. To fix this, quit all gpg-agent processes
-```bash
-killall gpg-agent
-```
-and resrart gpg-agent in "daemon mode" (as a background process)
-```bash
-gpg-agent --daemon
-```
-then try again:
-```bash
-echo "test" | gpg --clearsign
-```
-You should now be set up for verified commits.
 <br>
 <br>
 ## Additional resources
