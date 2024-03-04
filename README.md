@@ -2,8 +2,10 @@
 
 Welcome to the Physics and Rheology of Complex Fluids (PRO-CF) research group! :tada:
 
-This github organization is our hub for a variety of different repositories, including:
-- publically published AI/ML projects, DPD modules, and other useful scripts
+This repo provides information for new members of the group to help them get started. If you are not a member, you can still browse our public repos on the main page. Feel free to contact us with any questions!
+
+The PROCF github organization is our group's hub for a variety of repositories, including:
+- publically published AI/ML projects, customized HOOMD-blue software, and other useful scripts
 - (private) onboarding and training scripts for new students and postdocs
 - (private) legacy and back-up code from past projects
 - (private) current code that is shared among teams and individual group members for different projects
