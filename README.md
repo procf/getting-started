@@ -4,7 +4,11 @@ Welcome to the Rheoinformatic research group! :tada:
 
 Our research focuses on the <u>p</u>hysics and <u>r</u>heology <u>o</u>f <u>c</u>omplex <u>f</u>luids (PROCF)
 
-This repo provides information for new members of the group to help them get started. If you are not a member, you can still browse our public repos on the main page. Feel free to contact us with any questions!
+This repo provides information for new members of the group to help them get started. If you are not a member, you can still browse our public repos on the main page. 
+
+As a Northeastern member you should also be given access to [our SharePoint site](https://northeastern.sharepoint.com/sites/PROCFResearchData) for other file sharing within the group. You can request access from a senior member if you do not already have it.
+
+Feel free to contact us with any questions!
 
 The Rheoinformatic github organization is our group's hub for a variety of repositories, including:
 - publically published AI/ML projects, customized HOOMD-blue software, and other useful scripts
